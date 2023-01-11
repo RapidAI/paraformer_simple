@@ -1,2 +1,2 @@
-入口脚本：test_main.py
+入口脚本：test_wave.py
 

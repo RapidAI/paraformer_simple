@@ -7,9 +7,9 @@ from typing import Any, Dict, List, Union
 import librosa
 import numpy as np
 import pkg_resources
-from modelscope.utils.logger import get_logger
+# from modelscope.utils.logger import get_logger
 
-logger = get_logger()
+# logger = get_logger()
 
 green_color = '\033[1;32m'
 red_color = '\033[0;31;40m'
@@ -107,7 +107,8 @@ def get_sr_from_bytes(wav: bytes):
             # no treatment
             pass
     else:
-        logger.warn('audio bytes is ' + str(len(data)) + ' is invalid.')
+        # logger.warn('audio bytes is ' + str(len(data)) + ' is invalid.')
+        pass
 
     return sr
 

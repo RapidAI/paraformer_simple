@@ -1,0 +1,12 @@
+typeguard
+soundfile
+jamo
+jaconv
+humanfriendly
+torch_complex
+librosa
+pytorch_wpe
+oss2
+kaldiio
+h5py
+torchaudio

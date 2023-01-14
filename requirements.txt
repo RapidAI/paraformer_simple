@@ -10,3 +10,4 @@ oss2
 kaldiio
 h5py
 torchaudio
+sentencepiece
